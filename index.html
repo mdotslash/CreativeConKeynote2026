@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Money Money Money · Synced Talk Player</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="title-block">
+        <h1 id="projectTitle">Creative Con 2026 Workshop: Money Money Money Jeff Anderson</h1>
+        <p id="currentSlideLabel">Loading…</p>
+      </div>
+      <div class="topbar-actions">
+        <button id="prevSlideBtn" type="button">← Previous Slide</button>
+        <button id="nextSlideBtn" type="button">Next Slide →</button>
+        <button id="swapBtn" type="button">Swap Panes</button>
+      </div>
+    </header>
+
+    <section id="stage" class="stage">
+      <section class="pane video-pane" aria-label="Talk video">
+        <div class="video-wrap">
+          <video id="talkVideo" controls playsinline preload="metadata">
+            <source id="talkSource" src="" type="video/mp4" />
+            Your browser does not support HTML video.
+          </video>
+          <div id="captionOverlay" class="caption-overlay" aria-live="polite"></div>
+        </div>
+      </section>
+      <div id="divider" class="divider" role="separator" aria-label="Resize video and slides" tabindex="0"></div>
+      <section class="pane slide-pane" aria-label="Synced Canva slide video">
+        <div class="slide-frame">
+          <video id="slideVideo" muted playsinline preload="metadata">
+            <source id="slideSource" src="" type="video/mp4" />
+            Your browser does not support HTML video.
+          </video>
+        </div>
+      </section>
+    </section>
+
+    <section class="chapter-dock" aria-label="Slide chapter navigation">
+      <div class="chapter-header">
+        <div><h2>Slide Navigation</h2><p>Jump through the talk by slide.</p></div>
+        <div class="chapter-actions"><button id="scrollActiveBtn" type="button">Show Current</button></div>
+      </div>
+      <ol id="chapterList" class="chapter-strip"></ol>
+    </section>
+
+    <nav class="mobile-skipbar" aria-label="Mobile slide navigation">
+      <button id="mobilePrevSlideBtn" type="button">← Previous</button>
+      <div class="mobile-slide-status"><strong id="mobileSlideNumber">Slide --</strong><span id="mobileSlideTitle">Loading…</span></div>
+      <button id="mobileNextSlideBtn" type="button">Next →</button>
+    </nav>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

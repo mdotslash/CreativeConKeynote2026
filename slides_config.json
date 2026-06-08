@@ -1,0 +1,226 @@
+{
+  "project_name": "Money Money Money",
+  "slide_mode": "deck_video",
+  "media": {
+    "talk_video": "media/talk.mp4",
+    "slides_video": "media/slides.mp4"
+  },
+  "captions": [
+    {
+      "label": "English",
+      "srclang": "en",
+      "src": "data/captions.en.vtt"
+    }
+  ],
+  "deck": {
+    "slot_duration": 5,
+    "hold_offset": 2.5,
+    "outro_duration": 0.8,
+    "play_outro": false
+  },
+  "slides": [
+    {
+      "slide_id": 1,
+      "title": "Intro",
+      "thumbnail": "media/2.png",
+      "start": 0,
+      "end": 114
+    },
+    {
+      "slide_id": 2,
+      "title": "Mayowa / AMPL Labs",
+      "thumbnail": "media/3.png",
+      "start": 114,
+      "end": 136
+    },
+    {
+      "slide_id": 3,
+      "title": "Jeff / Arts Hub",
+      "thumbnail": "media/4.png",
+      "start": 135,
+      "end": 178
+    },
+    {
+      "slide_id": 4,
+      "title": "Act 1: Old World",
+      "thumbnail": "media/5.png",
+      "start": 178,
+      "end": 340
+    },
+    {
+      "slide_id": 5,
+      "title": "What kind of art...",
+      "thumbnail": "media/6.png",
+      "start": 348,
+      "end": 466
+    },
+    {
+      "slide_id": 6,
+      "title": "What Drives You...",
+      "thumbnail": "media/7.png",
+      "start": 466,
+      "end": 545
+    },
+    {
+      "slide_id": 7,
+      "title": "Your Origin Story...",
+      "thumbnail": "media/8.png",
+      "start": 545,
+      "end": 815
+    },
+    {
+      "slide_id": 8,
+      "title": "Mayowa's Creative Practice",
+      "thumbnail": "media/9.png",
+      "start": 815,
+      "end": 863
+    },
+    {
+      "slide_id": 9,
+      "title": "Mayowa's Origin Story",
+      "thumbnail": "media/10.png",
+      "start": 863,
+      "end": 924
+    },
+    {
+      "slide_id": 10,
+      "title": "Your Why...",
+      "thumbnail": "media/11.png",
+      "start": 924,
+      "end": 948
+    },
+    {
+      "slide_id": 11,
+      "title": "The World...",
+      "thumbnail": "media/12.png",
+      "start": 948,
+      "end": 1024
+    },
+    {
+      "slide_id": 12,
+      "title": "Act 2: A Hero",
+      "thumbnail": "media/13.png",
+      "start": 1024,
+      "end": 1152
+    },
+    {
+      "slide_id": 13,
+      "title": "Transactional or...",
+      "thumbnail": "media/14.png",
+      "start": 1152,
+      "end": 1262
+    },
+    {
+      "slide_id": 14,
+      "title": "A paintbrush vs...",
+      "thumbnail": "media/15.png",
+      "start": 1262,
+      "end": 1278
+    },
+    {
+      "slide_id": 15,
+      "title": "Paint Party...",
+      "thumbnail": "media/16.png",
+      "start": 1278,
+      "end": 1731
+    },
+    {
+      "slide_id": 16,
+      "title": "Your Budget...",
+      "thumbnail": "media/17.png",
+      "start": 1731,
+      "end": 1804
+    },
+    {
+      "slide_id": 17,
+      "title": "People's Plaza Budget",
+      "thumbnail": "media/18.png",
+      "start": 1811,
+      "end": 1830
+    },
+    {
+      "slide_id": 18,
+      "title": "People's Plaza Budget Pt 2",
+      "thumbnail": "media/19.png",
+      "start": 1830,
+      "end": 1952
+    },
+    {
+      "slide_id": 19,
+      "title": "Act 3: New World",
+      "thumbnail": "media/20.png",
+      "start": 1952,
+      "end": 2006
+    },
+    {
+      "slide_id": 20,
+      "title": "Better World",
+      "thumbnail": "media/21.png",
+      "start": 2006,
+      "end": 2026
+    },
+    {
+      "slide_id": 21,
+      "title": "Impact & Outcomes",
+      "thumbnail": "media/22.png",
+      "start": 2026,
+      "end": 2518
+    },
+    {
+      "slide_id": 22,
+      "title": "Artists Matter",
+      "thumbnail": "media/23.png",
+      "start": 2518,
+      "end": 2707
+    },
+    {
+      "slide_id": 23,
+      "title": "Artists & Catalysts",
+      "thumbnail": "media/24.png",
+      "start": 2707,
+      "end": 2774
+    },
+    {
+      "slide_id": 24,
+      "title": "Creativity is Valuable",
+      "thumbnail": "media/25.png",
+      "start": 2774,
+      "end": 2878
+    },
+    {
+      "slide_id": 25,
+      "title": "I.P. Matters",
+      "thumbnail": "media/26.png",
+      "start": 2878,
+      "end": 2916
+    },
+    {
+      "slide_id": 26,
+      "title": "Smiley Face (TM)",
+      "thumbnail": "media/27.png",
+      "start": 2916,
+      "end": 3180
+    },
+    {
+      "slide_id": 27,
+      "title": "Thank You",
+      "thumbnail": "media/28.png",
+      "start": 3180,
+      "end": 3186
+    },
+    {
+      "slide_id": 28,
+      "title": "Questions",
+      "thumbnail": "media/29.png",
+      "start": 3186,
+      "end": 3634
+    },
+    {
+      "slide_id": 29,
+      "title": "Resources + Contact",
+      "thumbnail": "media/30.png",
+      "start": 3634,
+      "end": 3738
+    }
+  ]
+}
